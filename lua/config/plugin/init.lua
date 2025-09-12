@@ -1,0 +1,38 @@
+return {
+  {
+    'aca/emmet-ls',
+    ft = { 'html', 'css', 'typescriptreact', 'javascriptreact' },
+  },
+  'hrsh7th/cmp-buffer',
+  'hrsh7th/cmp-nvim-lsp',
+  'hrsh7th/cmp-path',
+  'hrsh7th/nvim-cmp',
+  'L3MON4D3/LuaSnip',
+  'lewis6991/gitsigns.nvim',
+  'j-hui/fidget.nvim',
+  'mbbill/undotree',
+  {
+    'navarasu/onedark.nvim',
+    priority = 1000,
+  },
+  'neovim/nvim-lspconfig',
+  'nvim-lua/plenary.nvim',
+  'nvim-telescope/telescope-fzf-native.nvim',
+  'nvim-telescope/telescope-ui-select.nvim',
+  'nvim-telescope/telescope.nvim',
+  'nvim-treesitter/nvim-treesitter',
+  'saadparwaiz1/cmp_luasnip',
+  'stevearc/conform.nvim',
+  {
+    'ThePrimeagen/harpoon',
+    branch = 'harpoon2',
+    requires = { { 'nvim-lua/plenary.nvim' } },
+  },
+  'ThePrimeagen/vim-be-good',
+  'tpope/vim-sleuth',
+  'williamboman/mason-lspconfig.nvim',
+  'williamboman/mason.nvim',
+  'windwp/nvim-autopairs',
+  'windwp/nvim-ts-autotag',
+}
+
