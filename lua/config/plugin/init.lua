@@ -29,10 +29,10 @@ return {
     requires = { { 'nvim-lua/plenary.nvim' } },
   },
   'ThePrimeagen/vim-be-good',
+  'tpope/vim-fugitive',
   'tpope/vim-sleuth',
   'williamboman/mason-lspconfig.nvim',
   'williamboman/mason.nvim',
   'windwp/nvim-autopairs',
   'windwp/nvim-ts-autotag',
 }
-

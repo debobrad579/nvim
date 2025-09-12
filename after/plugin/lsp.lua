@@ -1,4 +1,3 @@
-print("hello, world")
 require('mason').setup()
 require('mason-lspconfig').setup {
   automatic_installation = true,
@@ -25,11 +24,11 @@ lspconfig.eslint.setup {}
 lspconfig.lua_ls.setup {
   settings = {
     Lua = {
-      runtime = {
-        version = 'LuaJIT',
-      },
       diagnostics = {
         globals = { 'vim' },
+      },
+      runtime = {
+        version = 'LuaJIT',
       },
       workspace = {
         library = vim.api.nvim_get_runtime_file('', true),
