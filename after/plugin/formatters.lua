@@ -9,6 +9,7 @@ conform.setup {
     typescriptreact = { 'prettier' },
     html = { 'prettier' },
     css = { 'prettier' },
+    sql = { 'pg_format' },
     python = { 'black' },
     go = { 'gofmt' },
   },
